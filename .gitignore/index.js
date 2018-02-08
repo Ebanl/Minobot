@@ -7,7 +7,7 @@ bot.on("ready", () => {
     console.log("bot connected");
 });
 
-bot.login(process.env.TOKEN);
+bot.login("NDEwODA1NjQ2NDI3MDI5NTE0.DV3_QQ.1iHLJY0qPQb6y-6WpYYQtRH0uZY");
 
 bot.on("message", message => {
     if (message.content === "modo")
